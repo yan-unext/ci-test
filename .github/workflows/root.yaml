@@ -1,0 +1,14 @@
+name: root
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - package.json
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 1
