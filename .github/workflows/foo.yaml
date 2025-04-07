@@ -1,9 +1,7 @@
 name: foo
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
     paths:
       - foo/package.json
 
