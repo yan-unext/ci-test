@@ -3,7 +3,7 @@ name: root
 on:
   pull_request:
     paths:
-      - package.json
+      - '/package.json'
 
 jobs:
   test:
